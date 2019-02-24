@@ -17,9 +17,16 @@ namespace Metroshoesmaagementsystem
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Mainscreen mainScr = new Mainscreen();
+            mainScr.ShowDialog();
         }
     }
 }

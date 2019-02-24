@@ -16,5 +16,36 @@ namespace Metroshoesmaagementsystem
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Addsales addSales = new Addsales();
+            addSales.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Generate_bill generateBill = new Generate_bill();
+            generateBill.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Addashoe addShoes = new Addashoe();
+            addShoes.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Shoe_search_result searchResult = new Shoe_search_result();
+            searchResult.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Mainscreen mainScr = new Mainscreen();
+            mainScr.ShowDialog();
+        }
     }
 }

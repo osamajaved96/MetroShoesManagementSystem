@@ -45,6 +45,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "User management";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -85,7 +86,6 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "Attendance";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -96,6 +96,7 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "LOG OUT";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Manager
             // 

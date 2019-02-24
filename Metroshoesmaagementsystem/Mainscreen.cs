@@ -17,19 +17,29 @@ namespace Metroshoesmaagementsystem
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            if(textBox1.Text == "operator" && textBox2.Text == "metroshoesopr")
+            {
+                this.Hide();
+                computerOperator compOpr = new computerOperator();
+                compOpr.ShowDialog();
+            }
+            else if(textBox1.Text != "operator" && textBox2.Text != "metroshoesopr")
+            {
+                MessageBox.Show("Incorrect Username/password! Please enter correct username and password!", "login Incorrect!");
+            }
 
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Mainscreen_Load(object sender, EventArgs e)
-        {
-
+            if (textBox1.Text == "manager" && textBox2.Text == "metroshoesmgr")
+            {
+                this.Hide();
+                Manager mgr = new Manager();
+                mgr.ShowDialog();
+            }
+            else if(textBox1.Text != "manager" && textBox2.Text != "metroshoesmgr")
+            {
+                MessageBox.Show("Incorrect Username/password! Please enter correct username and password!", "login Incorrect!");
+            }
         }
     }
 }

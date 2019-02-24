@@ -49,7 +49,6 @@
             this.label1.Size = new System.Drawing.Size(721, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = " WELCOME TO METRO SHOES MANAGEMENT SYSTEM";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -60,7 +59,6 @@
             this.label3.Size = new System.Drawing.Size(108, 19);
             this.label3.TabIndex = 2;
             this.label3.Text = "USER NAME:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox1
             // 
@@ -95,6 +93,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "LOG IN";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -120,7 +119,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Mainscreen";
             this.Text = "Main_Screen";
-            this.Load += new System.EventHandler(this.Mainscreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
