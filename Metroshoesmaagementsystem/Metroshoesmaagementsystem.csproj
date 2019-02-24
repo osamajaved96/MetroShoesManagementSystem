@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA8C30B5-E7FC-4B1D-83D6-D04058446C60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Metroshoesmaagementsystem</RootNamespace>
+    <AssemblyName>Metroshoesmaagementsystem</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addsales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addsales.Designer.cs">
+      <DependentUpon>Addsales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance.Designer.cs">
+      <DependentUpon>Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="computerOperator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computerOperator.Designer.cs">
+      <DependentUpon>computerOperator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addashoe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addashoe.Designer.cs">
+      <DependentUpon>Addashoe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete a shoe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete a shoe.Designer.cs">
+      <DependentUpon>Delete a shoe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expenditure records.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expenditure records.Designer.cs">
+      <DependentUpon>Expenditure records.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generate bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generate bill.Designer.cs">
+      <DependentUpon>Generate bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainscreen.Designer.cs">
+      <DependentUpon>Mainscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager.Designer.cs">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payrolls and incentives.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payrolls and incentives.Designer.cs">
+      <DependentUpon>Payrolls and incentives.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search sales record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search sales record.Designer.cs">
+      <DependentUpon>Search sales record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shoe search result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shoe search result.Designer.cs">
+      <DependentUpon>Shoe search result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shoe search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shoe search.Designer.cs">
+      <DependentUpon>Shoe search.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Addsales.resx">
+      <DependentUpon>Addsales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance.resx">
+      <DependentUpon>Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computerOperator.resx">
+      <DependentUpon>computerOperator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addashoe.resx">
+      <DependentUpon>Addashoe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete a shoe.resx">
+      <DependentUpon>Delete a shoe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expenditure records.resx">
+      <DependentUpon>Expenditure records.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generate bill.resx">
+      <DependentUpon>Generate bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainscreen.resx">
+      <DependentUpon>Mainscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager.resx">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payrolls and incentives.resx">
+      <DependentUpon>Payrolls and incentives.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search sales record.resx">
+      <DependentUpon>Search sales record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shoe search result.resx">
+      <DependentUpon>Shoe search result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shoe search.resx">
+      <DependentUpon>Shoe search.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
