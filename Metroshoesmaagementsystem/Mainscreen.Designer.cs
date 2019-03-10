@@ -77,9 +77,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(376, 443);
+            this.button1.Location = new System.Drawing.Point(370, 424);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(94, 33);
             this.button1.TabIndex = 6;
             this.button1.Text = "LOG IN";
             this.button1.UseVisualStyleBackColor = true;
@@ -88,9 +88,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Metroshoesmaagementsystem.Properties.Resources.Webp2;
-            this.pictureBox1.Location = new System.Drawing.Point(126, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(781, 328);
+            this.pictureBox1.Size = new System.Drawing.Size(1112, 338);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;

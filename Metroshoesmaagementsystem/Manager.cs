@@ -81,5 +81,11 @@ namespace Metroshoesmaagementsystem
             Employee_Attendance employee_Attendance = new Employee_Attendance();
             employee_Attendance.ShowDialog();
         }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            Expenditure_records expenditure_Records = new Expenditure_records();
+            expenditure_Records.ShowDialog();
+        }
     }
 }
