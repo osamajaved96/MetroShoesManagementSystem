@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class computerOperator : Form
+    public partial class computerOperator : System.Windows.Forms.Form
     {
         public computerOperator()
         {
@@ -37,8 +37,8 @@ namespace Metroshoesmaagementsystem
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Shoe_search_result searchResult = new Shoe_search_result();
-            searchResult.ShowDialog();
+            Shoe_search shoe_Search = new Shoe_search();
+            shoe_Search.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -46,6 +46,11 @@ namespace Metroshoesmaagementsystem
             this.Hide();
             Mainscreen mainScr = new Mainscreen();
             mainScr.ShowDialog();
+        }
+
+        private void computerOperator_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

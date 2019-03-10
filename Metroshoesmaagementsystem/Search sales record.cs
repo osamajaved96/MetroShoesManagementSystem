@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Search_sales_record : Form
+    public partial class Search_sales_record : System.Windows.Forms.Form
     {
         public Search_sales_record()
         {

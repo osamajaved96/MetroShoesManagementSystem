@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Mainscreen : Form
+    public partial class Mainscreen : System.Windows.Forms.Form
     {
         public Mainscreen()
         {
@@ -25,21 +25,21 @@ namespace Metroshoesmaagementsystem
                 computerOperator compOpr = new computerOperator();
                 compOpr.ShowDialog();
             }
-            else if(textBox1.Text != "operator" && textBox2.Text != "metroshoesopr")
-            {
-                MessageBox.Show("Incorrect Username/password! Please enter correct username and password!", "login Incorrect!");
-            }
-
-            if (textBox1.Text == "manager" && textBox2.Text == "metroshoesmgr")
+            else if (textBox1.Text == "manager" && textBox2.Text == "metroshoesmgr")
             {
                 this.Hide();
                 Manager mgr = new Manager();
                 mgr.ShowDialog();
             }
-            else if(textBox1.Text != "manager" && textBox2.Text != "metroshoesmgr")
+            else if(textBox1.Text != "manager" && textBox2.Text != "metroshoesmgr" || textBox1.Text != "operator" && textBox2.Text != "metroshoesopr")
             {
                 MessageBox.Show("Incorrect Username/password! Please enter correct username and password!", "login Incorrect!");
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

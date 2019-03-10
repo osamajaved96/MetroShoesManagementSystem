@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Attendance : Form
+    public partial class Weekly_expense : Form
     {
-        public Attendance()
+        public Weekly_expense()
         {
             InitializeComponent();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

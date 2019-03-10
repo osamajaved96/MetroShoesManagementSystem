@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Expenditure_records : Form
+    public partial class Expenditure_records : System.Windows.Forms.Form
     {
         public Expenditure_records()
         {
@@ -18,6 +18,11 @@ namespace Metroshoesmaagementsystem
         }
 
         private void Expenditure_records_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }

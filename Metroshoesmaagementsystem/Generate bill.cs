@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Generate_bill : Form
+    public partial class Generate_bill : System.Windows.Forms.Form
     {
         public Generate_bill()
         {
@@ -23,6 +23,15 @@ namespace Metroshoesmaagementsystem
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+                    }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

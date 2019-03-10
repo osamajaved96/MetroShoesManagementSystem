@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Payrolls_and_incentives : Form
+    public partial class Payrolls_and_incentives : System.Windows.Forms.Form
     {
         public Payrolls_and_incentives()
         {

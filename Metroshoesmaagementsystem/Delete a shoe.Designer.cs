@@ -44,23 +44,25 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(39, 46);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(6, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 19);
+            this.label1.Size = new System.Drawing.Size(88, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Shoe code:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(131, 44);
+            this.textBox1.Location = new System.Drawing.Point(100, 44);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(194, 20);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(130, 80);
+            this.textBox2.Location = new System.Drawing.Point(100, 80);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(194, 20);
             this.textBox2.TabIndex = 3;
@@ -68,16 +70,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(39, 79);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(6, 79);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 19);
+            this.label2.Size = new System.Drawing.Size(94, 19);
             this.label2.TabIndex = 2;
             this.label2.Text = "Shoe color:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(130, 113);
+            this.textBox3.Location = new System.Drawing.Point(100, 114);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(194, 20);
             this.textBox3.TabIndex = 5;
@@ -85,17 +89,18 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(39, 114);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(6, 114);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 19);
+            this.label3.Size = new System.Drawing.Size(81, 19);
             this.label3.TabIndex = 4;
             this.label3.Text = "Shoe size:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(131, 151);
+            this.textBox4.Location = new System.Drawing.Point(100, 149);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(194, 20);
             this.textBox4.TabIndex = 7;
@@ -103,16 +108,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(39, 150);
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(6, 150);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 19);
+            this.label4.Size = new System.Drawing.Size(89, 19);
             this.label4.TabIndex = 6;
             this.label4.Text = "Shoe style:";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(131, 190);
+            this.textBox5.Location = new System.Drawing.Point(100, 188);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(194, 20);
             this.textBox5.TabIndex = 9;
@@ -120,19 +126,20 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(39, 189);
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Transparent;
+            this.label5.Location = new System.Drawing.Point(6, 189);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 19);
+            this.label5.Size = new System.Drawing.Size(93, 19);
             this.label5.TabIndex = 8;
             this.label5.Text = "Shoe price:";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(616, 28);
+            this.button1.Location = new System.Drawing.Point(661, 23);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 56);
+            this.button1.Size = new System.Drawing.Size(127, 41);
             this.button1.TabIndex = 10;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
@@ -141,7 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Red;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox5);

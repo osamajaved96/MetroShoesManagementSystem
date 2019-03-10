@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Addashoe : Form
+    public partial class Addashoe : System.Windows.Forms.Form
     {
         public Addashoe()
         {
@@ -18,6 +18,16 @@ namespace Metroshoesmaagementsystem
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

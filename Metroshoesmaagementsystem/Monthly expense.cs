@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Addsales : Form
+    public partial class Monthly_expense : Form
     {
-        public Addsales()
+        public Monthly_expense()
         {
             InitializeComponent();
+        }
+
+        private void Monthly_expense_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

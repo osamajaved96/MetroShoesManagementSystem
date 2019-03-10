@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Shoe_search_result : Form
+    public partial class Daily_expense : Form
     {
-        public Shoe_search_result()
+        public Daily_expense()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

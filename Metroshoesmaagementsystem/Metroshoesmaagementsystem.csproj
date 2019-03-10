@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,17 +47,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addsales.cs">
+    <Compile Include="Daily expense.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Addsales.Designer.cs">
-      <DependentUpon>Addsales.cs</DependentUpon>
+    <Compile Include="Daily expense.Designer.cs">
+      <DependentUpon>Daily expense.cs</DependentUpon>
     </Compile>
-    <Compile Include="Attendance.cs">
+    <Compile Include="Employee Attendance.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Attendance.Designer.cs">
-      <DependentUpon>Attendance.cs</DependentUpon>
+    <Compile Include="Employee Attendance.Designer.cs">
+      <DependentUpon>Employee Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Least sold items report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Least sold items report.Designer.cs">
+      <DependentUpon>Least sold items report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monthly expense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monthly expense.Designer.cs">
+      <DependentUpon>Monthly expense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shoe search results.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shoe search results.Designer.cs">
+      <DependentUpon>Shoe search results.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales search record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales search record.Designer.cs">
+      <DependentUpon>Sales search record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculate payroll and incentives.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculate payroll and incentives.Designer.cs">
+      <DependentUpon>Calculate payroll and incentives.cs</DependentUpon>
     </Compile>
     <Compile Include="computerOperator.cs">
       <SubType>Form</SubType>
@@ -81,6 +112,18 @@
     </Compile>
     <Compile Include="Expenditure records.Designer.cs">
       <DependentUpon>Expenditure records.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mostly Sold items report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mostly Sold items report.Designer.cs">
+      <DependentUpon>Mostly Sold items report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculate payrolls and incentives.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculate payrolls and incentives.Designer.cs">
+      <DependentUpon>Calculate payrolls and incentives.cs</DependentUpon>
     </Compile>
     <Compile Include="Generate bill.cs">
       <SubType>Form</SubType>
@@ -120,29 +163,53 @@
     <Compile Include="Search sales record.Designer.cs">
       <DependentUpon>Search sales record.cs</DependentUpon>
     </Compile>
-    <Compile Include="Search.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Search.Designer.cs">
-      <DependentUpon>Search.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Shoe search result.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Shoe search result.Designer.cs">
-      <DependentUpon>Shoe search result.cs</DependentUpon>
-    </Compile>
     <Compile Include="Shoe search.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Shoe search.Designer.cs">
       <DependentUpon>Shoe search.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Addsales.resx">
-      <DependentUpon>Addsales.cs</DependentUpon>
+    <Compile Include="Total stock report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Total stock report.Designer.cs">
+      <DependentUpon>Total stock report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_management.Designer.cs">
+      <DependentUpon>User_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Weekly expense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weekly expense.Designer.cs">
+      <DependentUpon>Weekly expense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yearly expense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yearly expense.Designer.cs">
+      <DependentUpon>Yearly expense.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Daily expense.resx">
+      <DependentUpon>Daily expense.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Attendance.resx">
-      <DependentUpon>Attendance.cs</DependentUpon>
+    <EmbeddedResource Include="Employee Attendance.resx">
+      <DependentUpon>Employee Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Least sold items report.resx">
+      <DependentUpon>Least sold items report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monthly expense.resx">
+      <DependentUpon>Monthly expense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales search record.resx">
+      <DependentUpon>Sales search record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculate payroll and incentives.resx">
+      <DependentUpon>Calculate payroll and incentives.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="computerOperator.resx">
       <DependentUpon>computerOperator.cs</DependentUpon>
@@ -155,6 +222,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Expenditure records.resx">
       <DependentUpon>Expenditure records.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mostly Sold items report.resx">
+      <DependentUpon>Mostly Sold items report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculate payrolls and incentives.resx">
+      <DependentUpon>Calculate payrolls and incentives.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Generate bill.resx">
       <DependentUpon>Generate bill.cs</DependentUpon>
@@ -176,6 +249,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Reports.resx">
       <DependentUpon>Reports.cs</DependentUpon>
@@ -183,14 +257,23 @@
     <EmbeddedResource Include="Search sales record.resx">
       <DependentUpon>Search sales record.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Search.resx">
-      <DependentUpon>Search.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Shoe search result.resx">
-      <DependentUpon>Shoe search result.cs</DependentUpon>
+    <EmbeddedResource Include="Shoe search results.resx">
+      <DependentUpon>Shoe search results.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Shoe search.resx">
       <DependentUpon>Shoe search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Total stock report.resx">
+      <DependentUpon>Total stock report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_management.resx">
+      <DependentUpon>User_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weekly expense.resx">
+      <DependentUpon>Weekly expense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yearly expense.resx">
+      <DependentUpon>Yearly expense.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -204,6 +287,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webp.net-gifmaker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webp.net-gifmaker %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webp.net-gifmaker %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webp.net-gifmaker1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webp.net-gifmaker %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webp.net-gifmaker %283%291.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
