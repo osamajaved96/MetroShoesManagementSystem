@@ -54,6 +54,8 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include=".employee_scale.cs" />
+    <Compile Include="attendance.cs" />
     <Compile Include="Daily expense.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +68,15 @@
     <Compile Include="Employee Attendance.Designer.cs">
       <DependentUpon>Employee Attendance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Employee.cs" />
+    <Compile Include="Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees.Designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="expenditure.cs" />
+    <Compile Include="expenditure_type.cs" />
     <Compile Include="Least sold items report.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +89,14 @@
     <Compile Include="Monthly expense.Designer.cs">
       <DependentUpon>Monthly expense.cs</DependentUpon>
     </Compile>
+    <Compile Include="MSMSdatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSMSdatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="payroll.cs" />
+    <Compile Include="sales.cs" />
+    <Compile Include="sales_item.cs" />
     <Compile Include="Shoe search results.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,12 +195,15 @@
     <Compile Include="Shoe search.Designer.cs">
       <DependentUpon>Shoe search.cs</DependentUpon>
     </Compile>
+    <Compile Include="shoes.cs" />
+    <Compile Include="shoe_type.cs" />
     <Compile Include="Total stock report.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Total stock report.Designer.cs">
       <DependentUpon>Total stock report.cs</DependentUpon>
     </Compile>
+    <Compile Include="users.cs" />
     <Compile Include="User_management.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -205,6 +227,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Employee Attendance.resx">
       <DependentUpon>Employee Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Least sold items report.resx">
       <DependentUpon>Least sold items report.cs</DependentUpon>
@@ -282,6 +307,17 @@
     <EmbeddedResource Include="Yearly expense.resx">
       <DependentUpon>Yearly expense.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="MSMSdatabaseDataSet.xsc">
+      <DependentUpon>MSMSdatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MSMSdatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MSMSdatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MSMSdatabaseDataSet.xss">
+      <DependentUpon>MSMSdatabaseDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

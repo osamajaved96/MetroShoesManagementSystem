@@ -42,21 +42,21 @@
             this.label1.ForeColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(78, 186);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 19);
+            this.label1.Size = new System.Drawing.Size(138, 19);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Enter shoe code:";
+            this.label1.Text = "Enter Shoe Code:";
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(221, 187);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(93, 20);
+            this.textBox1.Size = new System.Drawing.Size(190, 20);
             this.textBox1.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(221, 235);
+            this.button1.Location = new System.Drawing.Point(221, 241);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(93, 33);
             this.button1.TabIndex = 2;
@@ -86,7 +86,7 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Shoe_search";
-            this.Text = "Shoe_search";
+            this.Text = "Shoe Search";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -16,10 +16,5 @@ namespace Metroshoesmaagementsystem
         {
             InitializeComponent();
         }
-
-        private void Monthly_expense_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -87,7 +87,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Metroshoesmaagementsystem.Properties.Resources.Webp2;
+            this.pictureBox1.Image = global::Metroshoesmaagementsystem.Properties.Resources.Webp_net_gifmaker__1_;
             this.pictureBox1.Location = new System.Drawing.Point(29, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1112, 338);
@@ -110,6 +110,7 @@
             this.Controls.Add(this.label3);
             this.Name = "Mainscreen";
             this.Text = "Main_Screen";
+            this.Load += new System.EventHandler(this.Mainscreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

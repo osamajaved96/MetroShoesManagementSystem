@@ -39,6 +39,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button11 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +50,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 67);
             this.button1.TabIndex = 0;
-            this.button1.Text = "User management";
+            this.button1.Text = "User Management";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -60,7 +61,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(107, 67);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Sales record";
+            this.button2.Text = "Sales Record";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -71,7 +72,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(107, 67);
             this.button3.TabIndex = 2;
-            this.button3.Text = "Calculate payrolls and incentives";
+            this.button3.Text = "Calculate Payrolls & Incentives";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -115,7 +116,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(107, 67);
             this.button8.TabIndex = 7;
-            this.button8.Text = "Generate bill";
+            this.button8.Text = "Generate Bill";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
@@ -126,7 +127,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(107, 67);
             this.button10.TabIndex = 9;
-            this.button10.Text = "Add new shoes";
+            this.button10.Text = "Add New Shoe";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -137,7 +138,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(107, 67);
             this.button9.TabIndex = 10;
-            this.button9.Text = "Shoe search";
+            this.button9.Text = "Shoe Search";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
@@ -157,10 +158,21 @@
             this.pictureBox1.Image = global::Metroshoesmaagementsystem.Properties.Resources.Webp_net_gifmaker__2_;
             this.pictureBox1.Location = new System.Drawing.Point(-5, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(804, 183);
+            this.pictureBox1.Size = new System.Drawing.Size(807, 183);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(12, 415);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(107, 67);
+            this.button11.TabIndex = 13;
+            this.button11.Text = "Employees";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Manager
             // 
@@ -168,6 +180,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 666);
+            this.Controls.Add(this.button11);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button9);
@@ -200,5 +213,6 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button11;
     }
 }

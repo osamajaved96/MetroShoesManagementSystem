@@ -41,5 +41,10 @@ namespace Metroshoesmaagementsystem
         {
 
         }
+
+        private void Mainscreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

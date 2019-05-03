@@ -87,5 +87,11 @@ namespace Metroshoesmaagementsystem
             Expenditure_records expenditure_Records = new Expenditure_records();
             expenditure_Records.ShowDialog();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Employees employees = new Employees();
+            employees.ShowDialog();
+        }
     }
 }
