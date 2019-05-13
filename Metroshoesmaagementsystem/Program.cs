@@ -16,7 +16,7 @@ namespace Metroshoesmaagementsystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Mainscreen());
+            Application.Run(new login());
         }
     }
 }

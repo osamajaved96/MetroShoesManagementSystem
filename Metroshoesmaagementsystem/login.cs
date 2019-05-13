@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Mainscreen : System.Windows.Forms.Form
+    public partial class login : System.Windows.Forms.Form
     {
-        public Mainscreen()
+        public login()
         {
             InitializeComponent();
         }

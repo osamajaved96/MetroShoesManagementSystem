@@ -32,9 +32,7 @@ namespace Metroshoesmaagementsystem
             textBox1.Text = emp.full_name;
             textBox2.Text = emp.phone;
             textBox3.Text = emp.address;
-            textBox4.Text = emp.scale.ToString();
             textBox5.Text = emp.salary;
-            textBox6.Text = emp.user_ID.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)

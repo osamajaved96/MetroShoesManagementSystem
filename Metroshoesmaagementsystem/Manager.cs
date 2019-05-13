@@ -26,7 +26,7 @@ namespace Metroshoesmaagementsystem
         private void button6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Mainscreen mainScr = new Mainscreen();
+            login mainScr = new login();
             mainScr.ShowDialog();
         }
 
@@ -66,14 +66,8 @@ namespace Metroshoesmaagementsystem
 
         private void button9_Click(object sender, EventArgs e)
         {
-            Shoe_search shoe_Search = new Shoe_search();
-            shoe_Search.ShowDialog();
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            Addashoe addShoes = new Addashoe();
-            addShoes.ShowDialog();
+            shoesManagement shoesManagement = new shoesManagement();
+            shoesManagement.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)

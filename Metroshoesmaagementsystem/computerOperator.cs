@@ -19,8 +19,7 @@ namespace Metroshoesmaagementsystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Addsales addSales = new Addsales();
-            addSales.ShowDialog();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -31,20 +30,18 @@ namespace Metroshoesmaagementsystem
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Addashoe addShoes = new Addashoe();
-            addShoes.ShowDialog();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Shoe_search shoe_Search = new Shoe_search();
-            shoe_Search.ShowDialog();
+
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Mainscreen mainScr = new Mainscreen();
+            login mainScr = new login();
             mainScr.ShowDialog();
         }
 

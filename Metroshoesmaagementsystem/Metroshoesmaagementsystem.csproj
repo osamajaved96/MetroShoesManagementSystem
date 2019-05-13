@@ -54,7 +54,6 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include=".employee_scale.cs" />
     <Compile Include="attendance.cs" />
     <Compile Include="Daily expense.cs">
       <SubType>Form</SubType>
@@ -74,6 +73,13 @@
     </Compile>
     <Compile Include="Employees.Designer.cs">
       <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees_scale.cs" />
+    <Compile Include="employee_scale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="employee_scale.Designer.cs">
+      <DependentUpon>employee_scale.cs</DependentUpon>
     </Compile>
     <Compile Include="expenditure.cs" />
     <Compile Include="expenditure_type.cs" />
@@ -97,18 +103,6 @@
     <Compile Include="payroll.cs" />
     <Compile Include="sales.cs" />
     <Compile Include="sales_item.cs" />
-    <Compile Include="Shoe search results.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Shoe search results.Designer.cs">
-      <DependentUpon>Shoe search results.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sales search record.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sales search record.Designer.cs">
-      <DependentUpon>Sales search record.cs</DependentUpon>
-    </Compile>
     <Compile Include="Calculate payroll and incentives.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,12 +114,6 @@
     </Compile>
     <Compile Include="computerOperator.Designer.cs">
       <DependentUpon>computerOperator.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Addashoe.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Addashoe.Designer.cs">
-      <DependentUpon>Addashoe.cs</DependentUpon>
     </Compile>
     <Compile Include="Delete a shoe.cs">
       <SubType>Form</SubType>
@@ -157,11 +145,11 @@
     <Compile Include="Generate bill.Designer.cs">
       <DependentUpon>Generate bill.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mainscreen.cs">
+    <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mainscreen.Designer.cs">
-      <DependentUpon>Mainscreen.cs</DependentUpon>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="Manager.cs">
       <SubType>Form</SubType>
@@ -189,13 +177,13 @@
     <Compile Include="Search sales record.Designer.cs">
       <DependentUpon>Search sales record.cs</DependentUpon>
     </Compile>
-    <Compile Include="Shoe search.cs">
+    <Compile Include="shoes.cs" />
+    <Compile Include="shoesManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Shoe search.Designer.cs">
-      <DependentUpon>Shoe search.cs</DependentUpon>
+    <Compile Include="shoesManagement.Designer.cs">
+      <DependentUpon>shoesManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="shoes.cs" />
     <Compile Include="shoe_type.cs" />
     <Compile Include="Total stock report.cs">
       <SubType>Form</SubType>
@@ -231,23 +219,20 @@
     <EmbeddedResource Include="Employees.resx">
       <DependentUpon>Employees.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="employee_scale.resx">
+      <DependentUpon>employee_scale.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Least sold items report.resx">
       <DependentUpon>Least sold items report.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Monthly expense.resx">
       <DependentUpon>Monthly expense.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sales search record.resx">
-      <DependentUpon>Sales search record.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Calculate payroll and incentives.resx">
       <DependentUpon>Calculate payroll and incentives.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="computerOperator.resx">
       <DependentUpon>computerOperator.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Addashoe.resx">
-      <DependentUpon>Addashoe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Delete a shoe.resx">
       <DependentUpon>Delete a shoe.cs</DependentUpon>
@@ -264,8 +249,8 @@
     <EmbeddedResource Include="Generate bill.resx">
       <DependentUpon>Generate bill.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mainscreen.resx">
-      <DependentUpon>Mainscreen.cs</DependentUpon>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manager.resx">
       <DependentUpon>Manager.cs</DependentUpon>
@@ -289,11 +274,8 @@
     <EmbeddedResource Include="Search sales record.resx">
       <DependentUpon>Search sales record.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Shoe search results.resx">
-      <DependentUpon>Shoe search results.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Shoe search.resx">
-      <DependentUpon>Shoe search.cs</DependentUpon>
+    <EmbeddedResource Include="shoesManagement.resx">
+      <DependentUpon>shoesManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Total stock report.resx">
       <DependentUpon>Total stock report.cs</DependentUpon>

@@ -19,7 +19,7 @@ namespace Metroshoesmaagementsystem
 
         private void Generate_bill_Load(object sender, EventArgs e)
         {
-
+            dateTimePicker1.Enabled = false;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -29,7 +29,8 @@ namespace Metroshoesmaagementsystem
 
         private void label2_Click(object sender, EventArgs e)
         {
-                    }
+
+        }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

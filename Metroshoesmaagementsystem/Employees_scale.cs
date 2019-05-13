@@ -8,20 +8,20 @@ using System.Threading.Tasks;
 
 namespace Metroshoesmaagementsystem
 {
-    class employee_scale
+    class Employees_scale
     {
         int employee_scale_ID;
         string name;
         string description;
-        employee_scale get(int ID, DbConnection connection )
+        Employees_scale get(int ID, DbConnection connection)
         {
-            string queryString = "SELECT name, description FROM employee WHERE user_ID =='1'";
+            string queryString = "select name, description from employee where user_ID =='1'";
             DbCommand command = connection.CreateCommand();
             command.CommandText = queryString;
             command.CommandType = CommandType.Text;
             connection.Open();
             DbDataReader reader = command.ExecuteReader();
-            while(reader.Read())
+            while (reader.Read())
             {
                 name = reader.GetString(reader.GetOrdinal("name"));
                 description = reader.GetString(reader.GetOrdinal("description"));

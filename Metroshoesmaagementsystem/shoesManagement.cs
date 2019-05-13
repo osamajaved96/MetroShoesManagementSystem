@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Metroshoesmaagementsystem
 {
-    public partial class Addsales : System.Windows.Forms.Form
+    public partial class shoesManagement : Form
     {
-        public Addsales()
+        public shoesManagement()
         {
             InitializeComponent();
         }
